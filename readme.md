@@ -26,6 +26,7 @@ but organizing where `topiary-nushell` is lazy task for me, so it will do:
     "stevearc/conform.nvim",
   },
   ft = "nu",
+  cmd = "TopiaryNuUpdate",
   opts = {},
 }
 ```
@@ -36,6 +37,7 @@ or
 {
   "zknx/topiary-nushell.nvim",
   ft = "nu",
+  cmd = "TopiaryNuUpdate",
   opts = {
     add_formatter_to_conform = false,
   },
